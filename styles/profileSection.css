@@ -1,0 +1,286 @@
+.profile_container {
+  width: 100%;
+  max-width: 1400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profile_section {
+  width: 400px;
+  height: calc(100vh - 50px);
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.profile_section .education_details {
+  width: 100%;
+  height: 150px;
+  background-color: #fff;
+  -webkit-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+          box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  margin-bottom: 15px;
+}
+
+.profile_section .education_details .eduction_body {
+  font-size: 0.85rem;
+  padding: 5px;
+  font-weight: 500;
+}
+
+.profile_section .work_details {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  -webkit-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+          box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  margin-bottom: 15px;
+}
+
+.profile_details {
+  width: 100%;
+  height: 320px;
+  background-color: #fff;
+  -webkit-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+          box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  margin-bottom: 15px;
+}
+
+.profile_details .details_header {
+  width: 100%;
+  height: 100px;
+  min-height: 100px;
+  max-height: 100px;
+  background-color: #000563;
+  position: relative;
+}
+
+.profile_details .details_header img {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -50%;
+  left: 10px;
+}
+
+.profile_details .details_body {
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.profile_details .details_body .name {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.profile_details .details_body .tag {
+  font-size: 0.8rem;
+  color: #333;
+}
+
+.profile_details .details_body .place {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.profile_details .details_body .connect_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.profile_details .details_body .connect_box .connect_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0;
+}
+
+.profile_details .details_body .connect_box .connect_item img {
+  margin-right: 10px;
+}
+
+.profile_details .details_body .connect_box .connect_item p {
+  font-size: 0.7rem;
+}
+
+.profile_details .details_body .dept {
+  font-size: 0.9rem;
+}
+
+.profile_details .details_body .date {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+._header {
+  width: 100%;
+  height: 35px;
+  min-height: 35px;
+  max-height: 35px;
+  background-color: #000563;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 5px;
+}
+
+._header p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.dash_board {
+  width: 100%;
+  padding: 15px 10px;
+  height: calc(100vh - 50px);
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.dash_board .dash_points {
+  width: 100%;
+  height: 80px;
+  background-color: #f5f5f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 20px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, #d1d5db 0px 0px 0px 1px inset;
+          box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, #d1d5db 0px 0px 0px 1px inset;
+}
+
+.dash_board .dash_points .dash_points_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dash_board .dash_points .dash_points_item p {
+  font-size: 0.9rem;
+  color: #7871cd;
+  font-weight: 500;
+}
+
+.dash_board .dash_points .dash_points_item span {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.Info_conatiner {
+  width: 100%;
+  background-color: #f5f5f3;
+  height: 250px;
+  margin-bottom: 20px;
+  padding: 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, #d1d5db 0px 0px 0px 1px inset;
+          box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, #d1d5db 0px 0px 0px 1px inset;
+}
+
+.Info_conatiner .header {
+  width: 100%;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 600;
+  color: #3726f1;
+}
+
+.Info_conatiner .header span {
+  margin: 0 10px;
+}
+
+.Info_conatiner .header p {
+  font-size: 1.3rem;
+}
+
+.catg_section {
+  width: 90%;
+  margin: 0 auto;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+}
+
+.catg_section .catg_title {
+  width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.catg_section .catg_title p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+
+.catg_section .catg_title p:hover {
+  border-bottom: 2px solid #333;
+}
+
+.catg_section::before {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: #53535344;
+  position: absolute;
+}
+/*# sourceMappingURL=profileSection.css.map */
